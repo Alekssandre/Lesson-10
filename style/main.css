@@ -1,6 +1,7 @@
 .flou {
 	display: block;
 	height: 400px;
+  height: 1920;
 	background-color: blue;
 	  }
 
@@ -8,7 +9,8 @@
   padding: 30px;
   
 }
- button {
+
+.grid-container button {
    width: 130px;
    height: 40px;
    border-radius: 15px;
@@ -27,4 +29,25 @@
   margin-top: -130px;
   text-align: right;
   color: white;
+}
+.back {
+  display: block;
+  width: 800px;
+  background-color: blue;
+  margin-top: 500px;
+} 
+.next {
+  margin-top: 500px;
+  display: block;
+  background-color: blue;
+  color: white;
+  
+}
+.grids-container {
+  display: grid;
+  grid-template-rows: 120% 120% 120% 120% ;
+  background-color: blue;
+  padding: 20px 400px ;
+  text-align: right;
+  
 }

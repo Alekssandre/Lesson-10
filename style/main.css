@@ -1,0 +1,30 @@
+.flou {
+	display: block;
+	height: 400px;
+	background-color: blue;
+	  }
+
+.img {
+  padding: 30px;
+  
+}
+ button {
+   width: 130px;
+   height: 40px;
+   border-radius: 15px;
+   margin: 0px 1750px;
+   margin-top: -130px;
+ }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 12% 12% 12% 12% 12% ;
+  text-align: right;
+}
+.grid-item {
+  padding: 0px 630px;
+  font-size: 20px;
+  margin-top: -130px;
+  text-align: right;
+  color: white;
+}
